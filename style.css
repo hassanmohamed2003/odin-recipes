@@ -3,7 +3,12 @@
     src: url("font/FoulisGreek-3Wry.ttf");
 }
 
-
+body{
+    background-image: url("images/paris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
 .title {
     text-align: center;
     font-family: myFirstFont;
@@ -11,7 +16,9 @@
 }
 .header{
     text-align: center;
-    font-size:xx-large
+    font-size:xx-large;
+    background-color: transparent;
+    color: gold
 }
 .food{
     text-align: center;
@@ -58,6 +65,7 @@
     background-repeat: repeat;
     background-size: 100% 100%;
     padding: 30px;
+    color: gold
 }
 
 ul{
